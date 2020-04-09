@@ -1,0 +1,54 @@
+.banner1 {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../images/vegas.jpeg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin: 0px 10px;
+}
+
+.banner1-content {
+	border: 1px solid white;
+	padding: 5px 20px;
+}
+
+.banner1 h1 {
+	color: white;
+	font-size: 40px;
+}
+
+.banner1 p {
+	color: white;
+	font-weight: lighter;
+	font-size: 30px;
+	opacity: 0.7;
+}
+
+.banner2 {
+	text-align: center;
+	margin: 10px 10px;
+	height: 100vh;
+	background-size: cover;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.banner2-title {
+	letter-spacing: 1.5;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+
+.banner2-slogan {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.banner2-btn {
+	font-size: 25px;
+}

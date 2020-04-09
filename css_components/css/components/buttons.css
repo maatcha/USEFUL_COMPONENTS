@@ -1,0 +1,70 @@
+.buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px 0px;
+}
+
+.btn-twitter {
+	background-color: #A80000;
+	color: white;
+	border-radius: 4px
+	font-weight: bolder;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.btn-twitter:hover {
+opacity: 0.6
+}
+
+.btn-medium {
+	background-color: transparent;
+	color: rgb(150, 150, 150);
+	border-radius: 50px;
+	font-weight: lighter;
+	padding: 10px 15px;
+	text-decoration: none;
+	border: 1px solid rgb(150, 150, 150);
+	opacity: 0.7;
+	font-family: sans-serif;
+}
+
+.btn-medium:hover {
+	opacity: 1;
+}
+
+.btn-treehouse {
+	padding: 10px 15px;
+	color: #45D37F;
+	border: 2px solid;
+	border-radius: 5px;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-weight: 600;
+	opacity: 0.7;
+	letter-spacing: 0.5;
+}
+
+.btn-treehouse:hover {
+	opacity: 1;
+	background-color: #45D37F;
+	border-color: #45D37F;
+	color: white;
+}
+
+.btn-mine {
+	background-color: #283373;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.6;
+	letter-spacing: 1.5;
+}
+
+.btn-mine:hover {
+	opacity: 1;
+}
